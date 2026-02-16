@@ -6,7 +6,7 @@
   background-attachment: fixed;
   animation: gradientShift 20s ease infinite;
   position: relative;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .App::before {
@@ -38,6 +38,7 @@ body {
   background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
   min-height: 100vh;
   overflow-x: hidden;
+  overflow-y: auto;
 }
 
 @keyframes gradientShift {
